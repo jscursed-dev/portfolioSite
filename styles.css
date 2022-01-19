@@ -54,6 +54,10 @@ a {
     transition: text-shadow 0.3s ease-in-out;
 }
 
+a:link{
+    text-decoration: none!important;
+  }
+
 a:hover {
     text-shadow: 0px 0px 5px #f8cd9c;
 }
