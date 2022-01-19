@@ -47,16 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-a {
-    color: #ad7a60;
-    text-decoration: none;
-    transition: text-shadow 0.3s ease-in-out;
-}
-
-a:hover {
-    text-shadow: 0px 0px 5px #f8cd9c;
-}
-
 .container {
     padding: 20px;
 }
@@ -86,6 +76,16 @@ header {
     margin-bottom: 1em;
     text-decoration: underline #f8cd9c 5px;
     text-underline-offset: 0.4em
+}
+
+a {
+    color: #ad7a60;
+    text-decoration: none !important;
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+a:hover {
+    text-shadow: 0px 0px 5px #f8cd9c;
 }
 
 .nav__list {
