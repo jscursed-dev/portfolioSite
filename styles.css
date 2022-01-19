@@ -128,6 +128,10 @@ aside {
     font-family: 'Roboto', sans-serif;
 }
 
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
 @media (max-width: 992px) {
     #logo {
         font-size: 1.3rem;
@@ -257,5 +261,69 @@ aside {
         letter-spacing: 1px;
         margin-top: 0.5em;
         margin-bottom: 0.7em;
+    }
+
+    .education {
+        width: 100vw;
+        height: 60vh;
+        background-size: cover;
+        background-image: url("./imgs/uni1.avif");
+    }
+
+    .education .brightness {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .65)
+    }
+
+    .education__content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        padding-top: 7%;
+    }
+
+    .education__content h2 {
+        letter-spacing: 3px;
+        font-size: 2em;
+        margin-top: 6vh;
+        display: block;
+        color: white;
+        border-bottom: 1px solid white;
+    }
+
+    h4 {
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        font-size: 0.8em;
+    }
+
+    .education__content h3 {
+        font-size: 1.4em;
+        font-weight: 500;
+    }
+
+    .education__content label {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .education__places {
+        width: 100%;
+    }
+
+    .education__places div {
+        display: flex;
+        align-items: center;
+        margin-top: 7vh;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, .5);
+        padding: 1rem 0 1rem 0;
+    }
+
+    .education__places div:last-child {
+        margin-top: 3vh;
     }
 }
