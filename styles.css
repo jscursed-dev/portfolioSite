@@ -203,12 +203,16 @@ aside {
         display: inline;
     }
 
+    .about aside ul li a {
+        text-decoration-color: #f8cd9c;
+    }
+
     .about .photo {
         display: flex;
         flex-direction: column;
         width: 50vw;
         min-width: 150px;
-        max-height: 440px;
+        max-height: 500px;
     }
     .about .photo img {
         width: 100%;
@@ -216,6 +220,8 @@ aside {
         object-position: center;
         object-fit: cover;
         max-width: 100%;
+        min-width: 150px;
+        max-height: 500px;
     }
 
     
