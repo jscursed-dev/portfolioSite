@@ -81,7 +81,6 @@ header {
 .about aside ul li a {
     color: #ad7a60;
     text-decoration: none;
-    text-decoration: underline #f8cd9c 0px;
     transition: text-shadow 0.3s ease-in-out;
 }
 
