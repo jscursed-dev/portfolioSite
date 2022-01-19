@@ -194,6 +194,15 @@ aside {
         flex-direction: column;
     }
 
+    .about aside ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about aside ul li {
+        display: inline;
+    }
+
     .about .photo {
         display: flex;
         flex-direction: column;
